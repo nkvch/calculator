@@ -1,0 +1,30 @@
+.button-container {
+    display: inline-block;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    height: 75px;
+    font-size: 30px;
+    color: white;
+    background-image: -webkit-radial-gradient( gray, black);
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.747);
+}
+
+button:active {
+    box-shadow: inset 0px 0px 30px black;
+    color: rgba(255, 255, 255, 0.692);
+}
+
+button.cancel {
+    background-image: -webkit-radial-gradient( orange, red);
+}
+
+button.operation {
+    background-image: -webkit-radial-gradient(rgb(117, 117, 117), rgb(90, 90, 90));
+}

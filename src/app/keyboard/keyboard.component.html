@@ -1,0 +1,5 @@
+<div class="keyboard">
+    <div class="keyboard-row" *ngFor=" let row of keys; index as i ">
+        <app-button class="{{ keys[i][j] == 'C' ? 'cancel' : '' }}" *ngFor=" let key of row; index as j " [key]=" keys[i][j] "></app-button>
+    </div>
+</div>

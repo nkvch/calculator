@@ -1,0 +1,5 @@
+<div class="button-container">
+    <button class="{{ key == 'C' ? 'cancel' : (key == '=' || key == '/' || key == '*' || key == '-' || key == '+') ? 'operation' : '' }}" (click)=" click() " >
+        {{ key }}
+    </button>
+</div>

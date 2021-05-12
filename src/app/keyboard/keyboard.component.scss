@@ -1,0 +1,9 @@
+.keyboard {
+    display: grid;
+    grid-template-rows: subgrid subgrid subgrid subgrid;
+    width: 100%;
+}
+.keyboard-row {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
